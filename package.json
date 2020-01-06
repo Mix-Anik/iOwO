@@ -1,0 +1,29 @@
+{
+  "name": "iowo",
+  "version": "1.0.0",
+  "description": "Discord bot, made for game project",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mix-Anik/iOwO.git"
+  },
+  "keywords": [
+    "discord",
+    "discord",
+    "bot",
+    "bot",
+    "gaming"
+  ],
+  "author": "Mixanik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mix-Anik/iOwO/issues"
+  },
+  "homepage": "https://github.com/Mix-Anik/iOwO#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

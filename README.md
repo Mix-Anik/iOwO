@@ -3,7 +3,7 @@ iOwO Discord bot
 
 # Configuration Setup
 
-## General
+### General
 
 * token - _Discord bot token, used to login_
 

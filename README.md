@@ -17,13 +17,14 @@ iOwO Discord bot
 * db_pass - _database user password_
 
 ### Modules
-`Manages modules to be enabled or not`
-* Info - _Turns on/off functionalities inside **info** module_
-* Misc - _Turns on/off functionalities inside **misc** module_
-* Roles - _Turns on/off functionalities inside **roles** module_
+`Manages modules to be enabled or not [ON/OFF]`
+* Info - _functionalities inside **info** module_
+* Misc - _functionalities inside **misc** module_
+* Roles - _functionalities inside **roles** module_
 * Monitoring
-  * c2d - _Turns on/off **Chat To Discord** feature_
-  * other - _Turns on/off all other functionalities in **monitoring** module_
+  * c2d - _**Chat To Discord** feature_
+  * server - _game servers monitoring features_
+  * vk - _VK group monitoring (needs vk app)_
 
 ### Embed messages
 `Feature, which allows to make embed messages with user's content`

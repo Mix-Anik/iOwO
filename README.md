@@ -30,10 +30,20 @@ iOwO Discord bot
 * eFooterImage - _Link to the image displayed near footer text_
 
 ### VK SETTINGS
-```
+<pre>
 Retrieves posts from VK group
-Needs VK application to be made, see '<a href="#">this</a>' for instructions on how to do that
-```
+Needs VK application to be made, see <a href="#">this</a> for instructions on how to do that
+</pre>
+
+<pre>
+import { assign, map } from <a href="https://www.npmjs.com/package/lodash" title="Lodash on npm">lodash</a>;
+
+<a href="https://lodash.com/docs#assign" title="assign documentation">assign</a>({ 'a': 1 }, { 'b': 2 }, { 'c': 3 });
+// → { 'a': 1, 'b': 2, 'c': 3 } 
+<a href="https://lodash.com/docs#map" title="map documentation">map</a>([1, 2, 3], function(n) { return n * 3; });
+// → [3, 6, 9] 
+</pre>
+
 * v_update_time - _Time after which VK group wall should be checked again (in ms.)_
 * group_id - _Your VK group's id (ex. club12345678 = 12345678)_
 * app_access_token - _Your VK application's token_
@@ -43,11 +53,11 @@ Needs VK application to be made, see '<a href="#">this</a>' for instructions on 
 * vMessageColor - _Discord embed message border color (HEX)_
 
 ### Chat-to-Discord config
-<pre>
+```
 Allows to connect chats in multiplayer game servers
 Bot includes plugin for *counter-strike:source/global offensive* servers (SM1.10)
 For all other games similar plugins needs to be made, which allows to recieve socket connections
-</pre>
+```
 * c2d_channel_id - _id of discord channel to post messages to_
 * c2d_socketPort - _game server's bound socket port_
 * c2d_server_ip - _game server's or other platform ip you want to track messages through sockets from_

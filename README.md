@@ -6,6 +6,7 @@ iOwO Discord bot
 ### General
 
 * token - _Discord bot token, used to login_
+* prefix - _Bot's prefix used in commands_
 
 ### Database settings (Postgres)
 `Database, where iOwO saves/retrieves everything`
@@ -19,6 +20,7 @@ iOwO Discord bot
 `Manages modules to be enabled or not`
 * Info - _Turns on/off functionalities inside **info** module_
 * Misc - _Turns on/off functionalities inside **misc** module_
+* Roles - _Turns on/off functionalities inside **roles** module_
 * Monitoring
   * c2d - _Turns on/off **Chat To Discord** feature_
   * other - _Turns on/off all other functionalities in **monitoring** module_

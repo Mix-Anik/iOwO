@@ -1,5 +1,6 @@
+# Not published yet!
 # iOwO
-iOwO Discord bot
+Discord bot for gaming server projects
 
 # Configuration Setup
 
